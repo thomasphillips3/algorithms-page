@@ -1,6 +1,6 @@
-===== Algorithms Page
+# Algorithms Page
 Page I use for practicing algorithms
 
------ Absolute Value
+* Absolute Value
 
------ Primality
+* Primality
