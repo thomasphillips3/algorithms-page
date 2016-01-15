@@ -2,5 +2,5 @@
 Page I use for practicing algorithms
 
 * Absolute Value
-abs|-x| = x
+ abs|-x| = x
 * Primality
