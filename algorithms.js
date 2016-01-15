@@ -21,8 +21,9 @@ function prime(){
     document.getElementById("prime").innerHTML = "Invalid input. Enter a number greater than 2.";
   } else {
     for (var i=2; (i*i <= x); i++){
-      if(x % i == 0){
+      if(x % i === 0){
         document.getElementById("prime").innerHTML = x + " is not prime.";
+        i=x;
       } else{
         document.getElementById("prime").innerHTML = x + " is prime.";
       }
