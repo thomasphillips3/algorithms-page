@@ -3,3 +3,6 @@ Page I use for practicing algorithms. Following along with [the Sedgewick/ Wayne
 
 * Absolute Value
 * Primality
+* Maximum Value
+* Average
+* Reverse
