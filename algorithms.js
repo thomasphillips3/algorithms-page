@@ -52,3 +52,21 @@ function findMax(){
   }
   document.getElementById("max").innerHTML = "Max: " + max;
 }
+
+function getAvg(){
+  var x = document.getElementById("getAvgArr").value;
+  var y = x.split(" ");
+
+  document.getElementById("avg").innerHTML = "Average: " + average(y);
+} function average(y){
+  // document.getElementById("avg").style.visibility = "visible";
+  console.log("average called");
+  console.log("y array: " + y);
+
+  sum = 0;
+  for (i=0; i < y.length; i++){
+    sum+=parseInt(y[i]);
+  }
+  console.log("sum: " + sum + "/num: " + y.length);
+  return sum/y.length;
+}
