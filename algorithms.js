@@ -30,3 +30,19 @@ function prime(){
     }
   }
 }
+
+function findMax(){
+  var x = document.getElementById("maxValArr").value;
+  var max = 0;
+  var y = x.split(" ");
+
+  console.log("x array: " + x);
+  console.log("y array: " + y);
+
+  for (i=0; i < y.length; i++){
+    if (parseInt(y[i]) > max){
+      max = y[i];
+    }
+  }
+  document.getElementById("max").innerHTML = "Max: " + max;
+}
