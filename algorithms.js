@@ -32,6 +32,7 @@ function prime(){
 }
 
 function findMax(){
+  document.getElementById("max").style.visibility = "visible";
   var x = document.getElementById("maxValArr").value;
   var max = 0;
   var y = x.split(" ");
@@ -40,7 +41,12 @@ function findMax(){
   console.log("y array: " + y);
 
   for (i=0; i < y.length; i++){
-    if (parseInt(y[i]) > max){
+    if (parseInt(y[i]) < 0){
+      console.log("negative input detected");
+      alert("Negative input detected");
+      i = y.length;
+      document.getElementById("max").style.visibility = "hidden";
+    } else if (parseInt(y[i]) > max){
       max = y[i];
     }
   }
