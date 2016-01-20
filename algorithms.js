@@ -76,7 +76,9 @@ function getRev(){
   var y = x.split(" ");
 
   document.getElementById("rev").innerHTML = "Reverse: " + reverse(y);
-} function reverse(y){
+}
+
+function reverse(y){
   console.log("reverse called");
   var n = y.length;
   for (i=0; i < n/2; i++){
