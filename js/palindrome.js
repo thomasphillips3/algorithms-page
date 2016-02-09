@@ -1,5 +1,5 @@
 (function(){
-  console.log("Hey IIFE");
+  // console.log("Hey IIFE");
   var btnCheckPalindrome = document.getElementById("checkPalindrome");
   var elResults = document.getElementById("pal");
   var elInput = document.getElementById("str");
